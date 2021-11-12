@@ -1,0 +1,8 @@
+<h1>no email</h1> 
+
+<div>
+  <%= render partial: 'customers/customer',
+             collection: @customers_no_email,
+             locals: { show_link: true } %>
+</div>
+<%= link_to 'index',:action => :index%>

@@ -1,0 +1,8 @@
+<h1>order name</h1> 
+
+<div>
+  <%= render partial: 'customers/customer',
+             collection: @customers_orderby_name,
+             locals: { show_link: true } %>
+</div>
+<%= link_to 'index',:action => :index%>
